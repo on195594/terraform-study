@@ -2,8 +2,8 @@
 variable "network" {
     description = ""
     type        = object({
-        network = map(string)
-        name  = string
+      network = map(string)
+      name  = string
     })
     default     = {
         network ={
